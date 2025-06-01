@@ -1,0 +1,116 @@
+<DOCTYPE html>
+<html>
+  <title>
+    Fiery Lists
+  </title>
+  <head>
+    <style>
+      body {
+        background: linear-gradient(to bottom,maroon, brown, firebrick);
+        font-family: 'Segoe UI', sans-serif;
+        color:white;
+        padding:40px;
+      }
+      h1 {
+        text-align:center;
+        color:orange;
+        text-shadow: 2px 2px 5px black;
+        margin-bottom:40px;
+      }
+      section {
+        max-width:600px;
+        margin:40px auto;
+        padding:20px;
+        border-radius:10px;
+        box-shadow: 0 0 12px orange;
+      }
+      .ul-section{
+        background:brown;
+        border-left: 5px solid orange;
+      }
+      .ul-section ul {
+        list-style-type:square;
+        padding-left:20px;
+        .ul-section li{
+          color:gold;
+          margin-bottom:10px;
+        }
+        .ul-section li:hover{
+          color:tomoto;
+          font-weight:bold;
+        }
+        .ol-section{
+          background:saddlebrown;
+          border-left:5px solid crimson;
+        }
+        .ol-section ol{
+          list-style-type:upper-roman;
+          padding-left:25px;
+        }
+        .ol-section li{
+          color:oranged;
+          margin-bottom:10px;
+        }
+        .ol-section li:hover{
+          color:yellow;
+          font-weight:bold;
+        }
+        .dl-section{
+          background:firebrick;
+          border-left: 5px solid darkred;
+        }
+        .dl-section dt{
+          color:tomoto;
+          font-weight:bold;
+          margin-top:10px;
+        }
+        .dl-section dd{
+          color:wheat;
+          margin-left:20px;
+          margin-bottom:10px;
+        }
+        h2{
+          color:gold;
+          border-bottom:2px dashed orange;
+          padding-bottom: 5px;
+          margin-bottom:15px;
+        }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Dragons And Tech
+    </h1>
+    <section class="ul-section">
+      <h2> Tech Streams</h2>
+      <ul>
+        <li> HTML</li>
+        <li> CSS</li>
+        <li> JS</li>
+        <li> Python</li>
+      </ul>
+    </section>
+    <section class="ol-section">
+      <h2> Tech Dragons </h2>
+      <ol>
+        <li> Mountaneous Mark Rider</li>
+        <li> Sky Surfer</li>
+        <li> Mercurian Ridge Back </li>
+        <li> Pyflame </li>
+      </ol>
+    </section>
+    <section class="dl-section">
+      <h2> Backdrop of SR Tech Dragons </h2>
+      <dl>
+        <dt> SR Tech Dragons </dt>
+        <dd> An initiative to gamify coding practice for students. </dd>
+        <dt>
+          Why Dragons? 
+        </dt>
+        <dd> To inspire and awaken the power to make them breathe code like fire </dd>
+      </dl>
+    </section>
+  </body>
+</html>
+
+
